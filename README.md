@@ -1,2 +1,2 @@
 # QMPBalloonTip
-Plugin for Defunct Media 
+Plugin for defunct Quintessential Media Player.
