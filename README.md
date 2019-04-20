@@ -1,5 +1,5 @@
 # QMPBalloonTip
-Balloon Notification plug-in for the defunct Quintessential Media Player. It was written for Windows XP with the latest release (version 0.3) on July 13, 2005.
+Balloon Notification plug-in for the defunct Quintessential Media Player. It was written for Windows XP with the latest release (version 0.3) on July 13, 2005. Compilers have become better and more stringent, so this project does not compile in its current state.
 
 # Original Description
 https://web.archive.org/web/20101220021517/http://quinnware.com/list_plugins.php?plugin=148
