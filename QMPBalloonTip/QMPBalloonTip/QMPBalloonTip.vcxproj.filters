@@ -15,34 +15,34 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\..\..\QCD\QMPBalloonTip (released v0.3)\QMPBalloonTip\ACLogo2.bmp">
+    <Image Include="ACLogo2.bmp">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\QCD\QMPBalloonTip (released v0.3)\QMPBalloonTip\QCDCtrlMsgs.h">
+    <ClInclude Include="QCDCtrlMsgs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\QCD\QMPBalloonTip (released v0.3)\QMPBalloonTip\QCDGeneralDLL.h">
+    <ClInclude Include="QCDGeneralDLL.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\QCD\QMPBalloonTip (released v0.3)\QMPBalloonTip\QCDModDefs.h">
+    <ClInclude Include="QCDModDefs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\QCD\QMPBalloonTip (released v0.3)\QMPBalloonTip\QCDModGeneral.h">
+    <ClInclude Include="QCDModGeneral.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\QCD\QMPBalloonTip (released v0.3)\QMPBalloonTip\resource.h">
+    <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\QCD\QMPBalloonTip (released v0.3)\QMPBalloonTip\QCDGeneralDLL.cpp">
+    <ClCompile Include="QCDGeneralDLL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="..\..\..\..\QCD\QMPBalloonTip (released v0.3)\QMPBalloonTip\QMPBalloonTip.rc">
+    <ResourceCompile Include="QMPBalloonTip.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
