@@ -1,5 +1,12 @@
 # QMPBalloonTip
-Balloon Notification plug-in for the defunct Quintessential Media Player. It was written for Windows XP with the latest release (version 0.3) on July 13, 2005. Compilers have become better and more stringent, so this project does not compile in its current state.
+Balloon Notification plug-in for the defunct Quintessential Media Player. It was written for Windows XP with the latest release (version 0.3) on July 13, 2005. 
+
+# Compilation and Linking
+Compilers have become better and more stringent, so this project does not compile in its current state when targeting modern platforms. The solution has been set up to target the Windows XP Platform Toolset (Visual Studio 2017 - Windows XP (v141_xp)) using Visual Studio 2019. MFC support is also required (for resources).
+
+See https://web.archive.org/web/20210315184252/https://docs.microsoft.com/en-us/cpp/build/configuring-programs-for-windows-xp?view=msvc-160 for information on targeting Windows XP.
+
+Unfortunately, this support for Windows XP is deprecated, so it may not be possible to compile in the future without many changes.
 
 # Original Description
 https://web.archive.org/web/20101220021517/http://quinnware.com/list_plugins.php?plugin=148
