@@ -99,7 +99,8 @@ BOOL WINAPI DllMain(HINSTANCE hInst, DWORD fdwReason, LPVOID pRes)
 PLUGIN_API BOOL GENERALDLL_ENTRY_POINT(QCDModInitGen *ModInit, QCDModInfo *ModInfo)
 {
 	ModInit->version = PLUGIN_API_VERSION_WANTUTF8;
-	ModInfo->moduleString = "Balloon Notification v0.3";
+	char pluginName[] = "Balloon Notification v0.3";
+	ModInfo->moduleString = pluginName;
 
 	ModInit->toModule.ShutDown			= ShutDown;
 	ModInit->toModule.About				= About;
@@ -325,7 +326,7 @@ void GenerateMessage(TCHAR* message, unsigned int messageSize, int trackIndex)
 
 				case 'N':	// New Line
 					{
-						strcpy(metaData, "\r\n");
+						strcpy_s(metaData, "\r\n");
 
 						break;
 					}
