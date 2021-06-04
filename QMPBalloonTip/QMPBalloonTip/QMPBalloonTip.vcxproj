@@ -19,20 +19,20 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\..\..\QCD\QMPBalloonTip (released v0.3)\QMPBalloonTip\ACLogo2.bmp" />
+    <Image Include="ACLogo2.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\QCD\QMPBalloonTip (released v0.3)\QMPBalloonTip\QCDCtrlMsgs.h" />
-    <ClInclude Include="..\..\..\..\QCD\QMPBalloonTip (released v0.3)\QMPBalloonTip\QCDGeneralDLL.h" />
-    <ClInclude Include="..\..\..\..\QCD\QMPBalloonTip (released v0.3)\QMPBalloonTip\QCDModDefs.h" />
-    <ClInclude Include="..\..\..\..\QCD\QMPBalloonTip (released v0.3)\QMPBalloonTip\QCDModGeneral.h" />
-    <ClInclude Include="..\..\..\..\QCD\QMPBalloonTip (released v0.3)\QMPBalloonTip\resource.h" />
+    <ClInclude Include="QCDCtrlMsgs.h" />
+    <ClInclude Include="QCDGeneralDLL.h" />
+    <ClInclude Include="QCDModDefs.h" />
+    <ClInclude Include="QCDModGeneral.h" />
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\QCD\QMPBalloonTip (released v0.3)\QMPBalloonTip\QCDGeneralDLL.cpp" />
+    <ClCompile Include="QCDGeneralDLL.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="..\..\..\..\QCD\QMPBalloonTip (released v0.3)\QMPBalloonTip\QMPBalloonTip.rc" />
+    <ResourceCompile Include="QMPBalloonTip.rc" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -44,13 +44,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v141_xp</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v141_xp</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
